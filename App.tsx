@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { AppState, BrandIdentity, MarketInsight } from './types';
-import { generateBrandStrategy, getMarketInsights, generateLogo } from './services/geminiService';
+import { generateBrandStrategy, getMarketInsights, generateLogo } from './services/openRouterService';
 import LiveConsultant from './components/LiveConsultant';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, AreaChart, Area } from 'recharts';
 
