@@ -28,3 +28,17 @@ export const openRouterService = {
     }
   }
 };
+
+// Add these missing functions:
+
+export const generateBrandStrategy = async (idea: string) => {
+  // Your implementation here
+};
+
+export const getMarketInsights = async (brandName: string, idea: string) => {
+  // Your implementation here
+};
+
+export const generateLogo = async (prompt: string) => {
+  // Your implementation here
+};
